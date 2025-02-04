@@ -10,7 +10,7 @@ export default function Home() {
   const handleInput = async () => {
     try {
       setLoading(true); 
-      const response = await fetch("http://localhost:3000/api/", {
+      const response = await fetch("https://langify.vercel.app/api/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
